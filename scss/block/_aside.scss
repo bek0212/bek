@@ -1,0 +1,52 @@
+.aside__block {
+    width: 100%;
+    height: 200px;
+    background-color: #F67E7E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../img/aside.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+    @media(max-width: 1006px){
+        background-image: none;
+    }
+    .aside__h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #012F34;
+        
+    }
+
+    .aside__btn {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        height: 50px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 1px solid  #012F34;
+       background: none;
+        color: #012F34;
+    }
+    .aside__btn:hover {
+        transition: all 0.8s;
+        color: #014E56;
+        background-color: #fff;
+    }
+
+}
+@media(max-width: 633px){
+    .aside__block{
+        display: block;
+        text-align: center;
+    }
+    .aside__h1{
+        padding: 20px 0px;
+    }
+    .aside__btn{
+        margin-top: 40px;
+    }
+}

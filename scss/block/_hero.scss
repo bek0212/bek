@@ -1,0 +1,129 @@
+.nav__card__father {
+    max-width: 100%;
+    height: 684px;
+    background-color: $bgcolor2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include wrap;
+    background-image: url(../../img/section2right.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    @media(max-width:1250px) {
+        background-image: url(../../img/section2right.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        transition: all 0.8s;
+    }
+
+    .card11__boshqaruvchi {
+        max-width: 1110px;
+        height: 404px;
+        display: flex;
+
+        .card__title__h1 {
+            width: 550px;
+            height: 100%;
+            @include wrap;
+            display: flex;
+            align-items: center;
+
+            justify-content: center;
+
+            .card__h1 {
+                width: 215px;
+                height: 144px;
+                font-size: 25px;
+                font-weight: 800;
+                color: white;
+                font-family: cursive;
+
+            }
+        }
+
+        .card__box {
+            max-width: 555px;
+            height: 100%;
+            @include wrap;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .card__q1 {
+                width: 100%;
+                height: 100px;
+                @include wrap;
+                color: rgb(209, 197, 197);
+
+                .card__title__q1 {
+                    text-align: center;
+                    color: #F67E7E;
+                }
+
+                .card__text__q1 {
+                    padding: 10px 20px;
+                    line-height: 20px;
+                }
+
+                .img__q1 {
+                    float: left;
+                }
+            }
+        }
+    }
+
+    @media (max-width:1130px) {
+        .card__title__h1 {
+            max-width: 550px;
+            @include wrap;
+        }
+
+        .card__h1 {
+            @include wrap;
+        }
+    }
+
+    @media (max-width:820px) {
+        .card__title__h1 {
+            max-width: 0px;
+            @include wrap;
+        }
+
+        .card__h1 {
+            display: none;
+        }
+    }
+
+    @media (max-width:820px) {
+        .card__title__h1 {
+            max-width: 0px;
+            @include wrap;
+        }
+
+        .card__text__q1 {
+            text-align: center;
+        }
+
+        .card__h1 {
+            display: none;
+        }
+    }
+
+    @media (max-width:354px) {
+        .img__q1 {
+            display: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

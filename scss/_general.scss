@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__father {
+    position: relative;
+    max-width: 1440px;
+    height: 2599px;
+    margin: auto;
+    flex-wrap: wrap;
+}
